@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    color: #2E2F42;
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.logo-accent {
+    color: #4D5AE5;
+}
