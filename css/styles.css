@@ -109,14 +109,14 @@ body {
         font-size: 16px;
         font-family: inherit;
         font-weight: 500;
-        line-height: 1.6;
+        line-height: 1.5;
         letter-spacing: 0.04em;
         background-color: #4D5AE5;
         cursor: pointer;
 }
 
 .hero-btn:hover,
-.hero-btn:active {
+.hero-btn:focus {
     background-color: #404BBF;
 }
 
@@ -153,7 +153,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.17;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -176,7 +176,7 @@ body {
 }
 
 .portfolio-btn:hover,
-.portfolio-btn:active {
+.portfolio-btn:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
