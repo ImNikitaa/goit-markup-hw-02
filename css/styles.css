@@ -6,20 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color:#434455;
     font-style: normal;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    background-color: #FFFFFF;
 }
 
 .link {
@@ -38,6 +25,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+     text-align: center;
 }
 
 .section-text {
@@ -60,9 +48,9 @@ body {
 .logo {
     color: #4D5AE5;
         font-size: 18px;
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-weight: 800;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
@@ -82,6 +70,10 @@ body {
 .header-menu-item:hover,
 .header-menu-item:focus {
     color:#404BBF;
+}
+
+.socials {
+    font-style: normal;
 }
 
 .header-socials-item {
@@ -109,6 +101,7 @@ body {
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 
 .hero-btn {
@@ -120,6 +113,11 @@ body {
         letter-spacing: 0.04em;
         background-color: #4D5AE5;
         cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+    background-color: #404BBF;
 }
 
 /*--------------- Exposition ----------------*/
@@ -152,9 +150,10 @@ body {
 
 .footer-text {
     color: #F4F4FD;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.02em;
 }
 
@@ -173,7 +172,6 @@ body {
     letter-spacing: 0.04em;
     background: #F4F4FD;
     cursor: pointer;
-    border-radius: 4px;
     border: 1px solid #E7E9FC;
 }
 
