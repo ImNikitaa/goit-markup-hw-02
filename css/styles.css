@@ -181,15 +181,9 @@ body {
 
 /*--------------- PORTFOLIO ----------------*/
 
-.portfolio {}
-
-.visually-hidden {}
-
-.portfolio-list-btns {}
-
-.list {}
-
-.btn-list-item {}
+.btn-list-item {
+    background-color: #FFF;
+}
 
 .portfolio-btn {
     color: #4D5AE5;
@@ -198,6 +192,38 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #E7E9FC;
+    background: #F4F4FD;
     cursor: pointer;
-}  
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:active {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.portfolio-main-list {}
+
+.list {}
+
+.portfolio-main-item {}
+
+.portfolio-list-subtitle {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link {}
+
