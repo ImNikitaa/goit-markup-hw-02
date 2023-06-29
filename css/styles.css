@@ -30,6 +30,33 @@ body {
     list-style-type: none;
 }
 
+
+.section-title {
+    color: var(--accent-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-subtitle {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/*--------------- HEADER ----------------*/
+
 .logo {
     color: #4D5AE5;
         font-size: 18px;
@@ -43,8 +70,6 @@ body {
 .logo-accent {
     color: var(--accent-color);
 }
-
-/*--------------- HEADER ----------------*/
 
 .header-menu-item {
         color: var(--accent-color);
@@ -99,31 +124,11 @@ body {
 
 /*--------------- Exposition ----------------*/
 
-.exposition-subtitle {
-    color: var(--accent-color);
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-}
 
-.exposition-item-text {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-}
 
 /*--------------- We-doing ----------------*/
 
-.we-doing-title {
-        color: var(--accent-color);
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-}
+
 
 /*--------------- TEAM ----------------*/
 
@@ -131,34 +136,8 @@ body {
     background-color: #F4F4FD;
 }
 
-.team-title {
-        color: var(--accent-color);
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-}
-
-.team-list {}
-
 .team-item {
     background-color: #FFF;
-}
-
-.team-list-subtitle {
-    color: var(--accent-color);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.team-text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 /*--------------- FOOTER ----------------*/
@@ -203,27 +182,3 @@ body {
     background-color: #404BBF;
     color: #FFFFFF;
 }
-
-.portfolio-main-list {}
-
-.list {}
-
-.portfolio-main-item {}
-
-.portfolio-list-subtitle {
-    color: var(--accent-color);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.portfolio-text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.link {}
-
